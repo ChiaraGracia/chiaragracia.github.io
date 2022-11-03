@@ -108,3 +108,18 @@
    text-decoration: underline;
    text-decoration-style: dotted;
  }
+ .negritayitalica {
+  color: black;
+  font-weight: bold;
+  font-style: italic;
+ }
+
+ .italica {
+  font-style: italic;
+ }
+
+ .negrita {
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+ }
