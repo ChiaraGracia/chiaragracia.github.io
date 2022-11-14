@@ -1,46 +1,117 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <title>Galería</title>
     <link rel="stylesheet" href="estilo.css">
+    <link href="path/to/lightbox.css" rel="stylesheet" />
 </head>
 
 <body>
     <header>
-        <h1>Mi galería de Gatos</h1>
+        <div class="portada">
+            <img id="imagen-principal" src="img/familia.png" alt="imagen 0">
+            <div class="centro">Gatos</div>
+        </div>
     </header>
-    <section>
-        <h2>Gatos</h2>
-        <a href="img/20220421_214928.jpg" target="_blank">
-            <img src="img/20220421_214928.jpg" alt="imagen 1">
-        </a>
-        <a href="img/20220516_090101.jpg" target="_blank">
-            <img src="img/20220516_090101.jpg" alt="imagen 2">
-        </a>
-        <a href="img/20220403_132140.jpg" target="_blank">
-            <img class="blur" src="img/20220403_132140.jpg" alt="imagen 3">
-        </a>
-        <a href="img/5a5a8d8d14d8c4188e0b08ef.png" target="_blank">
-            <img src="img/5a5a8d8d14d8c4188e0b08ef.png" alt="imagen 4">
-        </a>
-        <a href="img/rs_500x281-140808102730-cutest-cat-gifs-please.gif" target="_blank">
-            <img src="img/rs_500x281-140808102730-cutest-cat-gifs-please.gif" alt="imagen 5">
-        </a>
-        <a href="img/20220508_132116.jpg" target="_blank">
-            <img src="img/20220508_132116.jpg" alt="imagen 6">
-        </a>
-        <a href="img/20220801_143910.png" target="_blank">
-            <img src="img/20220801_143910.png" alt="imagen 7">
-        </a>
-        <a href="img/Recurso 1.svg" target="_blank">
-            <img src="img/Recurso 1.svg" alt="imagen 8">
-        </a>
-        <a href="img/25ea6471cfdc1d807ff46752cbc53598.gif" target="_blank">
-            <img src="img/25ea6471cfdc1d807ff46752cbc53598.gif" alt="imagen 9">
-        </a>
-    </section>
     
+    <section>
+        <div class="flex-container">
+            <div class="imagatos">
+                <a href="img/abuela gato.jpg" data-lightbox="imagen-1" data-title="Abuelita gato"></a>
+                <div class="ilustraciones">
+                    <img src="img/abuela gato.jpg" alt="imagen 1" class="imagen">
+                    <div class="overlay">
+                        <div class="frase">Abuelita Gato</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="imagatos">
+                <a href="img/gato elote.jpg" data-lightbox="imagen-1" data-title="Gato vendedor elotes"></a>
+                <div class="ilustraciones">
+                    <img src="img/gato elote.jpg" alt="imagen 2" class="imagen">
+                    <div class="overlay">
+                        <div class="frase">Gato vendedor de elotes</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="imagatos">
+                <a href="img/cuadro.jpg" data-lightbox="imagen-1" data-title="Cuadro Gatos"></a>
+                <div class="ilustraciones">
+                    <img src="img/cuadro.jpg" alt="imagen 3" class="imagen">
+                    <div class="overlay">
+                        <div class="frase">Cuadro Gatos</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="imagatos">
+                <a href="img/gato corazon.jpg" data-lightbox="imagen-1" data-title="Gato arregla corazones"></a>
+                <div class="ilustraciones">
+                    <img src="img/gato corazon.jpg" alt="imagen 4" class="imagen">
+                    <div class="overlay">
+                        <div class="frase">Gato arregla corazones</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="imagatos">
+                <a href="img/dia de los muertos.gif" data-lightbox="imagen-1" data-title="Gatos dia de los muertos"></a>
+                <div class="ilustraciones">
+                    <img src="img/dia de los muertos.gif" alt="imagen 5" class="imagen">
+                    <div class="overlay">
+                        <div class="frase">Gatos día de los muertos</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="imagatos">
+                <a href="img/super tacos.jpg" data-lightbox="imagen-1" data-title="Gato vendedor supertacos"></a>
+                <div class="ilustraciones">
+                    <img src="img/super tacos.jpg" alt="imagen 6" class="imagen" <div class="overlay">
+                    <div class="overlay">
+                        <div class="frase">Gato vendedor Supertacos</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="imagatos">
+                <a href="img/mama gato.jpg" data-lightbox="imagen-1" data-title="Mama Gato"></a>
+                <div class="ilustraciones">
+                    <img src="img/mama gato.jpg" alt="imagen 7" class="imagen">
+                    <div class="overlay">
+                        <div class="frase">Mamá Gato</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="imgatos">
+                <a href="img/gato panadero.png" data-lightbox="imagen-1" data-title="Gato Panadero"></a>
+                <div class="ilustraciones">
+                    <img src="img/gato panadero.png" alt="imagen 8" class="imagen">
+                    <div class="overlay">
+                        <div class="frase">Gato Panadero</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="imgatos">
+                <a href="img/pocion gato.jpg" data-lightbox="imagen-1" data-title="Gato creador de pociones"></a>
+                <div class="ilustraciones">
+                    <img src="img/pocion gato.jpg" alt="imagen 9" class="imagen">
+                    <div class="overlay">
+                        <div class="frase">Gato creador de pociones</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <script src="path/to/lightbox.js"></script>
+
 </body>
 
 </html>
