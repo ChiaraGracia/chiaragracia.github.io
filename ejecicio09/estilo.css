@@ -1,13 +1,6 @@
-header {
-    background-color: paleturquoise;
-}
-
-section {
-    background-color: beige;
-}
-
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: cornsilk;
 }
 
 #imagen-principal {
@@ -28,46 +21,33 @@ body {
     color: white;
 }
 
-img {
-    width: 200px;
-    height: auto;
-    display: block;
-    border-radius: 8px;
+.imagatos {
+    margin: 10px;
+    padding: 45px;
+}
+
+section img {
+    height: 500px;
+    flex-wrap: nowrap;
+    border-radius: 10px;
 }
 
 .flex-container {
     display: flex;
     justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
-    align-content: flex-start;
-    background-color: aqua;
-    width: auto;
 }
 
-.imagatos {
-    background-color: #f1f1f1;
-    margin: 10px;
-    padding: 65px;
-}
-
-div {
-    display: block;
-}
-
-.lightbox {
-    position: absolute;
-    left: 0;
-    width: 100%;
-    z-index: 10000;
-    text-align: center;
-    line-height: 0;
-    font-weight: bolder;
-    outline: none;
+.flex-container> div {
+    width: 400px;
+    margin: 5px;
 }
 
 .ilustraciones {
     position: relative;
-    width: 50%;
+    width: 100%;
+    margin: 1px;
 }
 
 .overlay {
@@ -75,11 +55,11 @@ div {
     bottom: 100%;
     left: 0;
     right: 0;
-    background-color: pink;
+    background-color: snow;
     overflow: hidden;
-    width: 100%;
     height: 0;
-    transition: .5s ease;
+    transition: .7s ease;
+    border-radius: 10px;
 }
 
 .ilustraciones:hover .overlay {
@@ -94,7 +74,8 @@ div {
 .frase {
     white-space: nowrap;
     color: black;
-    font-size: 40px;
+    font-weight: bolder;
+    font-size: 25px;
     position: absolute;
     overflow: hidden;
     top: 50%;
@@ -102,11 +83,12 @@ div {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
 }
-
 .imagen {
-    display: block;
-    width: 50%;
-    height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    filter: drop-shadow(8px 8px 10px gray);
 }
