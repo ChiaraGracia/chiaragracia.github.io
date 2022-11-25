@@ -46,7 +46,6 @@ main {
 main section {
     width: 45%;
     height: 200px;
-    background-color: aqua;
     margin-bottom: 20px;
 }
 
@@ -75,11 +74,11 @@ p {
     font-size: 15px;
     text-decoration: none;
     font-weight: bold;
-    color: deepskyblue;
+    color: rgb(6, 175, 232);
 }
 
 .button {
-    background-color: deepskyblue;
+    background-color: rgb(6, 175, 232);
     border-radius: 5px;
     border: none;
     color: white;
@@ -101,8 +100,9 @@ p {
 }
 
 h3 {
-    font-weight: bold;
-    border-bottom: ;
+    font-weight: bolder;
+    font-size: 22px;
+    margin-bottom: 9px;
 }
 
 .caja {
@@ -116,18 +116,50 @@ h3 {
     padding-right: 10px;
 }
 
-footer {
-    background-color: black;
-    width: 100%;
-    margin: auto;
+.cuadradoscolores {
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: flex-start;
+}  
+
+.rosa1 {
+    background-color: rgb(81, 7, 40);
+    color: rgb(81, 7, 40);
 }
 
-.oferta ul {
+.rosa2 {
+    background-color: rgb(223, 3, 102);
+    color: rgb(223, 3, 102);
+}
+
+.rosa3 {
+    background-color: rgb(255, 62, 200);
+    color: rgb(255, 62, 200);
+}
+
+.rosa4 {
+    background-color: rgb(255, 149, 221);
+    color: rgb(255, 149, 221);
+}
+
+.blanco {
+    background-color: aliceblue;
+    color: aliceblue;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.oferta .estudio {
     list-style: none;
     justify-content: flex-start;
     display: flex;
-    padding: 20px;
-    margin-left: 8%;
+    margin-left: 6%;
 }
 
 li {
@@ -139,29 +171,17 @@ li {
     color: gold;
 }
 
-.cloud {
-    background-color: darkgrey;
-}
-
-.cloud ul {
-    list-style: none;
+.oferta .nube {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(26, 26, 26);
 }
 
 .nube {
-    flex-direction: column;
-}
-
-.marketing {
-    flex-direction: column;
-}
-
-.document {
-    flex-direction: column;
-}
-
-.nube, .marketing, .document, .acrobat {
-    display: flex;
-    justify-content: flex-start;
-    padding-right: 30px;
-    margin-left: 8px;
+    list-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
