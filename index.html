@@ -5,16 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
+    <script src="https://kit.fontawesome.com/e1c3f27f81.js" crossorigin="anonymous"></script>
     <title>Chiara Gracia</title>
 </head>
 <body>
+    <header>
+        <div id="navbar">
+            <img src="img/Logo.svg" alt="">
+            <div id="navbar-right">
+                <a href="#home">Home</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+                <a class="openbtn" onclick="openNav()">☰</a>
+                <div id="mySidebar" class="sidebar">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                    <a href="#">Ejercicio 07</a>
+                    <a href="#">Ejercicio 08</a>
+                    <a href="#">Ejercicio 09</a>
+                    <a href="#">Ejercicio 10</a>
+                </div>
+                <script>
+                    function openNav() {
+                        document.getElementById("mySidebar").style.width = "250px";
+                        document.getElementById("main").style.marginLeft = "250px";
+                    }
 
-    <h1>Tecnicas de producción y edición digital</h1>
-    <ul>
-        <li><a href="ejercicio07/index.html" target="_blank">Ejercicio 07</a></li>
-        <li><a href="ejercicio08/index.html" target="_blank">Ejercicio 08</a></li>
-        <li><a href="ejercicio09/index.html" target="_blank">Ejercicio 09</a></li>
-        <li><a href="ejercicio10/index.html" target="_blank">Ejercicio 10</a></li>
-    </ul>
+                    function closeNav() {
+                        document.getElementById("mySidebar").style.width = "0";
+                        document.getElementById("main").style.marginLeft = "0";
+                    }
+                </script>
+            </div>
+            <script>
+                window.onscroll = function () { scrollFunction() };
+
+                function scrollFunction() {
+                    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+                        document.getElementById("navbar").style.padding = "30px 10px";
+                        document.getElementById("logo").style.fontSize = "25px";
+                    } else {
+                        document.getElementById("navbar").style.padding = "80px 10px";
+                        document.getElementById("logo").style.fontSize = "35px";
+                    }
+                }
+            </script>
+        </div>
+    </header>
+
+    <main>
+        <h1>Tecnicas de producción y edición digital</h1>
+        <ul>
+            <li><a href="ejercicio07/index.html" target="_blank">Ejercicio 07</a></li>
+            <li><a href="ejercicio08/index.html" target="_blank">Ejercicio 08</a></li>
+            <li><a href="ejercicio09/index.html" target="_blank">Ejercicio 09</a></li>
+            <li><a href="ejercicio10/index.html" target="_blank">Ejercicio 10</a></li>
+        </ul>
+    </main>
 </body>
 </html>
