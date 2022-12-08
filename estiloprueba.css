@@ -19,7 +19,6 @@ header {
     z-index: 99;
 }
 
-
 #navbar a {
     float: left;
     color: black;
@@ -31,13 +30,11 @@ header {
     line-height: 20px;
     border-radius: 4px;
 }
-
 #mySidebar a {
-  font-size: 25px;
+    font-size: 20px;
 }
-
 #mySidebar {
-  padding-top: 30px;
+    padding-top: 30px;
 }
 
 img {
@@ -131,36 +128,3 @@ img {
   }
 /* header */
 
-/* main */
-main {
-  background-image: url(img/ee70b1097721a756b53f27946c66a16c.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 75vh;
-    padding: 0;
-    margin: 0;
-}
-h1 {
-    color: black;
-    text-align: center;
-    font-size: 100px;
-    font-weight: bolder;
-    padding-top: 150px;
-    font-family: jeanne-moderno-titling, serif;
-}
-
-a {
-    font-size: 50px;
-    font-weight: bolder;
-}
-
-ul {
-    list-style-type: none;
-}
-
-li {
-    margin-bottom: 10px;
-    text-align: center;
-    padding-bottom: 400px;
-}
-/* main */
