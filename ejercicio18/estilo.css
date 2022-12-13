@@ -16,10 +16,14 @@ header {
 h1 {
   font-size: 50px;
   text-align: center;
+  /* margin-right: 30px;
+  margin-left: 30px; */
 }
 
 i {
-  color: blueviolet;
+  color: rgb(200, 176, 238);
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 main {
@@ -42,7 +46,7 @@ main {
   border-color: black;
 }
 .contenedor:hover {
-  box-shadow: 0 4px 8px 0 lavender, 0 6px 20px 0 lavender;
+  box-shadow: 0 4px 8px 0  rgb(199, 168, 249), 0 6px 20px 0 rgb(199, 168, 249);
 }
 
 h2 {
