@@ -134,6 +134,7 @@ img {
 /* main */
 main {
   width: 100%;
+
 }
 
 .imagenfondo {
@@ -160,23 +161,36 @@ main {
   height: 80vh;
 }
 
-.contenedor {
-  background-color: aqua;
+.cajas {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.contenedor {
+  display: flex;
   margin: 40px;
   position: relative;
-  border-radius: 20px;
-  width: 400px;
-  height: 390px;
+  width: 350px;
+  height: 100px;
   padding: 10px;
   border: solid;
-  border-width: 1.5px;
+  border-radius: 20px;
+  border-width: 2px;
   border-color: black;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(252, 248, 242);
 }
 
 a {
     font-size: 50px;
     font-weight: bolder;
+    text-decoration: none;
+    color: black;
+}
+
+.contenedor a:hover {
+  color: hotpink;
 }
 /* main */

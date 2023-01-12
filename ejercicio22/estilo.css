@@ -1,0 +1,80 @@
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+}
+
+img {
+    max-height: auto;
+    width: 100%;
+
+}
+
+.prueba {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+}
+
+.prueba li {
+    font-size: 20px;
+}
+
+
+.text {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h1 {
+    font-weight: lighter;
+    font-size: 30px;
+    margin-top: 60px;
+}
+
+h2 {
+    color: gray;
+    font-size: 10pt;
+    font-family: Geneva;
+    margin-bottom: 80px;
+    line-height: 30px;
+}
+
+#part-1 {
+    margin-top: 80px;
+}
+
+a {
+    text-decoration: none;
+    color: coral;
+}
+
+p {
+    font-size: 20px;
+    width: 100%;
+}
+
+.indice {
+    list-style: none;
+    background-color: black;
+    margin: auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.indice li {
+    color: paleturquoise;
+    margin: auto;
+    padding-bottom: 20px;
+    font-weight: lighter;
+}
+
+.link1:hover {
+    color: hotpink;
+    text-decoration: underline;
+    text-decoration: line-through;
+}
+
+.link2:hover {
+    color: pink;
+    text-decoration: underline;
+}
