@@ -149,14 +149,14 @@ main {
   color: black;
   font-weight: bolder;
   top: 50%;
-  left: 53%;
+  left: 52%;
   transform: translate(-50%, -50%);
   width: 1200px;
 }
 
 .imagencentral { 
   height: auto;
-  width: 270%;
+  width: 100%;
   padding: 0;
   height: 80vh;
 }
