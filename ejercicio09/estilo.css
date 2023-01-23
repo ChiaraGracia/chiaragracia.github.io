@@ -43,7 +43,7 @@ section img {
     flex-wrap: wrap;
 }
 
-.flex-container> div {
+.flex-container div {
     width: 400px;
     margin: 5px;
 }
