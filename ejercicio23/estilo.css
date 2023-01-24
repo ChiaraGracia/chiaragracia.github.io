@@ -73,6 +73,12 @@ marquee {
         font-size: 200% !important;
     }
 
+    .nav-link:hover {
+        color: rgb(234, 110, 172) !important;
+        font-weight: bold !important;
+        font-size: 200% !important;
+    }
+
     .navbar-brand {
         color: rgb(255, 99, 21) !important;
         padding-right: 7% !important;
@@ -92,6 +98,12 @@ marquee {
 
     .nav-link {
         color: rgb(255, 99, 21) !important;
+        font-weight: bold !important;
+        font-size: 200% !important;
+    }
+
+    .nav-link:hover {
+        color: rgb(234, 110, 172) !important;
         font-weight: bold !important;
         font-size: 200% !important;
     }
@@ -127,7 +139,6 @@ marquee {
         color: rgb(234, 110, 172) !important;
         font-weight: bold !important;
         font-size: 200% !important;
-
     }
 
     .navbar-brand {
@@ -141,11 +152,13 @@ marquee {
     justify-content: space-around;
     flex-wrap: wrap;
     padding-top: 6%;
+    padding-bottom: 7%;
 }
 
 .flex-container div {
     position: relative;
     width: 400px;
+    
 }
 
 .trabajos {
@@ -166,4 +179,39 @@ marquee {
     width: 100%;
     filter: drop-shadow(8px 8px 10px gray);
     border-radius: 15px;
+}
+
+.sobremi {
+    padding-top: 4%;
+    padding-left: 7%; 
+    padding-right: 7%;
+    display: flex;
+    padding-bottom: 4%;
+}
+
+h1 {
+    font-family: ivymode, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.infomia {
+    text-align: justify;
+    padding-right: 6%;
+    padding-top: 14%;
+}
+.imagenesyo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.imagenesyo img {
+    width: 320px;
+    height: 300px;
+    position: relative;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(234, 110, 172);
 }
